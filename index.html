@@ -21,7 +21,7 @@
           window.setTimeout(()=>{
           cv.style="transform:rotate(-45deg)";
           },500)
-        },1500);
+        },1000);
       }
       function animateEmail() {
         var email=document.getElementById("email");
@@ -33,7 +33,7 @@
         window.setTimeout(()=>{
           email.style="transform:rotate(-45deg)";
         },500)
-        },1500)
+      },1000)
       }
       window.addEventListener("load",()=>{
         animateCv();
@@ -57,18 +57,18 @@
       });
       var lines = [];
       var colors = [
-        "#C501E1",
-        "#9A26F8",
-        "#6564FE",
-        "#2B97FA",
-        "#02C4E7",
-        "#16E6CC",
-        "#2EF9A0",
-        "#C6E501",
-        "#E7C501",
-        "#FF6A63",
-        "#F82D98",
-        "#E830CE"
+        "#DCDCDC",
+        "#D3D3D3",
+        "#C0C0C0",
+        "#A9A9A9",
+        "#808080",
+        "#696969",
+        "#000000",
+        "#F5F5F5",
+        "#FFFFFF",
+        "#E6E6FA",
+        "#708090",
+        "#778899"
       ];
       var mouse = {x: 0, y: 0, isDown: false};
       function Line(x1, x2, y1, y2, dy, color, width) {
@@ -133,7 +133,7 @@
   <body>
     <div class="header">
       <a  href="https://drive.google.com/file/d/1wUXTjD5I5nBJ5EBNeOHoJjFthO67ViHU/view?usp=sharing" style="display:inline;">
-        <svg id="cv" width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-file-earmark-person-fill" fill="#000000" xmlns="http://www.w3.org/2000/svg">
+        <svg id="cv" width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-file-earmark-person-fill" fill="#c0c0c0" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" d="M2 2a2 2 0 0 1 2-2h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2zm7.5 1.5v-2l3 3h-2a1 1 0 0 1-1-1zM11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0zm2 5.755S12 12 8 12s-5 1.755-5 1.755V14a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-.245z"/>
         </svg>
       </a>
@@ -141,13 +141,31 @@
         &nbsp;&nbsp;Eng. Ayah Al-rifai Projects
       </div>
       <a  href="mailto:akalrifai15@gmail.com" style="display:inline;">
-        <svg id="email" width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="#000000" xmlns="http://www.w3.org/2000/svg">
+        <svg id="email" width="3em" height="3em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="#c0c0c0" xmlns="http://www.w3.org/2000/svg">
           <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
         </svg>
       </a>
       <br>
       <br>
     </div>
+    <div class="row">
+      <div class="project">
+        <div class="title">
+          <b>Special Needs Control System<span style="color:#D4AF37"> "Graduation Project"</span></b>
+        </div>
+        <iframe src="https://citjustedu-my.sharepoint.com/personal/akalrifai15_xcit_just_edu_jo/_layouts/15/Doc.aspx?sourcedoc={5f01b9ab-e168-431f-ab09-4a24d4561cfb}&amp;action=embedview&amp;wdAr=1.7777777777777777&amp;wdEaa=1" width="100%" height="600px" frameborder="0">يشكل هذا العرض التقديمي ‏<a target="_blank" href="https://office.com">Microsoft Office</a> مضمّناً، يتم تشغيله بواسطة <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="project">
+        <div class="title">
+          <b>Solar Tracker</b>
+        </div>
+          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FAyah.alrifai97%2Fposts%2F2193462787364574&show_text=false&height=441&appId" width="551" height="441" style="margin-left:20%;margin-right: 20%;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+      </div>
+    </div>
+    <br>
     <div class="row">
       <div class="project">
         <div class="title">

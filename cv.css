@@ -1,39 +1,31 @@
 .header {
-  color: #000000;
-  background-color:#F08080;
+  color: #C0C0C0;
+  background-color:#111111;
   font-size: 7vmin;
   text-align: center;
   margin-bottom: 20px;
   }
 
-  .name {
+.name {
     font-size: 7vmin;
     letter-spacing: .4em;
     font-weight:bolder;
     font-family: 'Sofia';
-    text-shadow:
+    text-shadow: 1px 1px 2px #777777, 0 0 1em #777777, 0 0 0.2em #777777;
+    /* text-shadow:
     -14px 25px 5px #922D2D,-13px 23px 5px #9B3131,-12px 25px 5px #9F3535,-15px 19px 5px #A83A3A,
     -10px 17px 5px #B64242,-9px 15px 5px #BC4747,-8px 13px 5px #C64F4F,-7px 15px 5px #CA5656,
     -6px 9px 5px #D15C5C,-5px 7px 5px #D86363,-4px 5px 5px #DD6868,-3px 3px 5px #E37070,
-    -2px 5px 5px #E77676,-5px -5px 5px #EB7D7D,5px -4px 0 #F08585;
+    -2px 5px 5px #E77676,-5px -5px 5px #EB7D7D,5px -4px 0 #F08585; */
   }
 
-  #flower {
-    position:absolute;
-    z-index: 1;
-    width: 150px;
-    height: 150px;
-    left:10px;
-    top:10px;
-  }
 .carousel-inner img {
     width: 100%;
     height: 100%;
   }
 
 .project {
-  background-color: #FFFFFF;
-  color:#2F4F4F;
+  background-color: #c0c0c0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width:80%;
   margin-left:10%;
@@ -44,7 +36,8 @@
 .title {
   font-size:4vmin;
   text-align: center;
-  background-color:#F08080;
+  color:#C0C0C0;
+  background-color:#111111;
   height: 50px;
   padding: 5px;
 }
@@ -56,23 +49,18 @@ body {
 a {
     font-size:3vmin;
 }
+
 .main {
-height: 150px;
-width: 100%;
-overflow: hidden;
-padding:0;
-margin:0;
-z-index: 1;
-position: fixed;
-bottom:0px;
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
+  padding:0;
+  margin:0;
+  z-index: 1;
+  /* position: absolute; */
+  /* bottom:0px; */
 }
 
 svg path {
-stroke: none;
-}
-
-svg line {
-/*   stroke: white;
-stroke-width: 3;
-opacity:0.3; */
+  stroke: none;
 }
